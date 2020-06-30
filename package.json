@@ -1,0 +1,21 @@
+{
+  "name": "starter-project-gulp",
+  "version": "1.0.0",
+  "description": "starter project for new project with gulp and scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "javascript",
+    "starter-project"
+  ],
+  "author": "Giao DINH",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
