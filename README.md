@@ -2,7 +2,7 @@
 
 Starter project for new project with gulp and scss and browser-sync
 
-## 1. Clone repo from github
+## 1. Clone repo
 
 ### GitHub
 
