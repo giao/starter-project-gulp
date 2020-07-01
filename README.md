@@ -30,3 +30,17 @@ modify package.json accordingly
 
 gulp style
 gulp watch
+
+## 5. Gitify the new project
+
+* Create upstream repos (GitHub && GitLab)
+* git init local project
+  ``` 
+  $> rm -fr .git
+  $> git init
+  $> echo "# MY_NEW_PROJET" >README.md
+  $> git commit -a -m "First commit"
+  $> git remote add ghub git@github.com:giao/MY_NEW_PROJECT.git
+  $> git remote add glab git@gitlab.com:giao.dinh/MY_NEW_PROJECT.git
+  $> for rmotes in ghub glab ; do git push -u $rmotes master ; done
+  ```
